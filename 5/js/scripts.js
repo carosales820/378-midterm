@@ -12,7 +12,8 @@ var birthday = {
 
 // Get & Store Today's Date
 // Remember 0 is January, 1 is February, etc.
-var today;
+var today = birthday.check;
+console.log(today);
 
 // *IF* users stored birthday is equal to: "1/11" 
 // Add class `highlight`
