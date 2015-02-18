@@ -23,25 +23,58 @@
     * Tab: http://semantic-ui.com/modules/tab.html#/examples
     * Vertical Rectangle Ad: http://semantic-ui.com/views/advertisement.html
   -->
-  <div class="ui column page grid">
+  <div class="ui grid three column page">
       
       <!-- Card -->
-      <div class="">
+      <div class="column">
         <h2>Column 1</h2>
+<div class="ui card">
+  <div class="image">
+    <img src="images/stevie.jpg">
+  </div>
+  <div class="content">
+    <a class="header">Stevie Feliciano</a>
+    <div class="meta">
+      <span class="date">Joined in 2014</span>
+    </div>
+    <div class="description">
+      Stevie Feliciano is a library scientist living in New York City. She likes to spend her time reading, running, and writing.
+    </div>
+  </div>
+  <div class="extra content">
+    <a>
+      <i class="user icon"></i>
+      22 Friends
+    </a>
+  </div>
+</div>
         
         
       </div>
       
       <!-- Tabs -->
-      <div class="">
+      <div class="column">
         <h2>Column 2</h2>
-        
+        <div class="ui top attached tabular menu">
+    <a class="active item" data-tab="first">First</a>
+    <a class="item" data-tab="second">Second</a>
+    <a class="item" data-tab="third">Third</a>
+  </div>
+<div class="ui bottom attached active tab segment" data-tab="first">
+    First
+  </div>
+<div class="ui bottom attached tab segment" data-tab="second">
+    Second
+  </div>
+<div class="ui bottom attached tab segment" data-tab="third">
+    Third
+  </div>
       </div>
 
       <!-- Vertical Rectangle Ad -->
-      <div class="">
+      <div class="column">
         <h2>Advertisements</h2>
-        
+        <div class="ui vertical rectangle test ad" data-text="Vertical Rectangle"></div>
       </div>
 
   </div>
