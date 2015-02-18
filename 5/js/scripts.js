@@ -18,3 +18,4 @@ console.log(today);
 // *IF* users stored birthday is equal to: "1/11" 
 // Add class `highlight`
 // REF: http://api.jquery.com/addclass
+if (birthday.user[3] == '1/11')
