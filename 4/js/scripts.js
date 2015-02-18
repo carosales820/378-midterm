@@ -4,6 +4,15 @@
 // Upon Clicking "Nightime"
 // REF: http://api.jquery.com/click/
 
+$('#night').click(function(){
+
+
+
+	$('body').removeclass('day');
+	$('body').addclass('night');
+});
+
+
 // remove `day` class
 // REF: http://api.jquery.com/removeclass/
 
@@ -13,6 +22,12 @@
 
 // Upon Clicking "Daytime"
 // REF: http://api.jquery.com/click/
+
+$('#day').click(function(){
+	$('body').removeclass('night');
+	$('body').addclass('day');
+});
+
 
 // remove `night` class
 // REF: http://api.jquery.com/removeclass/
